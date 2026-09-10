@@ -13,5 +13,20 @@
     <h5>pcam2</h5>
     <h6>CFE ultimo cambio</h6>
 
+    <form method="GET" action="hola.php">
+        <label>nombre</label>
+        <input type="text" name='nombre' value="" />
+        <br>
+        <label>apellido Paterno</label>
+        <input type="text" name='apellido_paterno' value="" />
+        <br>
+        <label>apellido Materno</label>
+        <input type="text" name='apellido_materno' value="" />
+        <br>
+        <input type="button" name='boton1' value="hola" />
+        <input type="submit" name='boton2' value="enviar" />
+        
+    </form>
+
 </body>
 </html>
