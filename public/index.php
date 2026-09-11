@@ -5,7 +5,29 @@ $comentario = "Estamos probando el debugger";
 $c = $a + $b;
 
 echo '>'.$comentario.'<br>';
-echo '>>'.$c;
+echo '>>'.$c.'<br>';
+
+echo "Jovany <br>";
+$m = 10;
+$n = 5;
+$o = 6; 
+$p = ($m + $n + $o) / 3;
+echo $p;
+
+function promedio($m,$n,$o){
+    $p = ($m + $n + $o) / 3;
+    echo  $p;
+}
+
+echo "<br>Valeria";
+promedio(10,10,10);
+
+echo "<br>Naomi";
+promedio(10,10,10);
+
+echo "<br>Jessy";
+promedio(9,10,10);
+
 ?>
 
 <!DOCTYPE html>
