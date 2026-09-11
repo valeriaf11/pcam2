@@ -1,3 +1,13 @@
+<?php
+$a = 10;
+$b = 20;
+$comentario = "Estamos probando el debugger"; 
+$c = $a + $b;
+
+echo '>'.$comentario.'<br>';
+echo '>>'.$c;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
