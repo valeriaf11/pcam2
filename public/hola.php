@@ -8,7 +8,7 @@ $apellido_paterno = $_GET['apellido_paterno'] ?? '';
 $apellido_materno = $_GET['apellido_materno'] ?? '';
 
 
-/* $_POST tambnien es una variable de sesion del servidor */
+/* $_POST tambien es una variable de sesion del servidor */
 //$usuario = $_POST['usuario_1'];
 $usuario = isset($_POST['usuario_1']) ? $_POST['usuario_1'] : '';
 //$contra = $_POST['contra_1'];
