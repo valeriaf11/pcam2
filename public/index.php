@@ -27,6 +27,19 @@
         <input type="submit" name='boton2' value="enviar" />
         
     </form>
+<br>
+    <form method="POST" action="hola.php">
+        <label>usuario</label>
+        <input type="text" name='usuario_1' value="" />
+        <br>
+        <label>contraseña</label>
+        <input type="text" name='contra_1' value="" />
+        
+        <br>
+        <input type="button" name='boton1' value="hola" />
+        <input type="submit" name='boton2' value="enviar" />
+        
+    </form>
 
 </body>
 </html>

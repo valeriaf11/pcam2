@@ -1,10 +1,19 @@
 
 <?php 
 
+//$_GET es una variable de sesion del servidor */
 
-$nombre = $_GET['nombre'];
-$apellido_paterno = $_GET['apellido_paterno'];
-$apellido_materno = $_GET['apellido_materno'];
+$nombre = $_GET['nombre'] ?? '';
+$apellido_paterno = $_GET['apellido_paterno'] ?? '';
+$apellido_materno = $_GET['apellido_materno'] ?? '';
+
+
+/* $_POST tambnien es una variable de sesion del servidor */
+//$usuario = $_POST['usuario_1'];
+$usuario = isset($_POST['usuario_1']) ? $_POST['usuario_1'] : '';
+//$contra = $_POST['contra_1'];
+$contra = isset($_POST['contra_1']) ? $_POST['contra_1'] : '';
+
 
 ?>
 
@@ -20,5 +29,8 @@ $apellido_materno = $_GET['apellido_materno'];
     <h1>* <?php echo $nombre;?></h1>
     <h1>* <?php echo $apellido_paterno;?></h1>
     <h1>* <?php echo $apellido_materno;?></h1>
+    <br>
+     <h1>*usuario:  <?php echo $usuario;?></h1>
+    <h1>*contraseña: <?php echo $contra;?></h1>
 </body>
 </html>
