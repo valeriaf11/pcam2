@@ -7,7 +7,7 @@ $c = $a + $b;
 echo '>'.$comentario.'<br>';
 echo '>>'.$c.'<br>';
 
-echo " <br>Jovany";
+echo " <br>Jovany:";
 $m = 10;
 $n = 5;
 $o = 6; 
@@ -19,13 +19,13 @@ function promedio($m,$n,$o){
     echo  $p;
 }
 
-echo "<br>Valeria";
+echo "<br><br>"." Valeria:";
 promedio(10,10,10);
 
-echo "<br>Naomi";
+echo "<br><br>" ."Naomi:";
 promedio(10,10,10);
 
-echo "<br>Jessy";
+echo "<br><br>" ."Jessy:";
 promedio(9,10,10);
 
 for ($i = 1; $i <= 5; $i++) {
