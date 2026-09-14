@@ -1,135 +1,53 @@
-<?php
-$a = 10;
-$b = 20;
-$comentario = "Estamos probando el debugger"; 
-$c = $a + $b;
-
-echo '>'.$comentario.'<br>';
-echo '>>'.$c.'<br>';
-
-echo " <br>Jovany:";
-$m = 10;
-$n = 5;
-$o = 6; 
-$p = ($m + $n + $o) / 3;
-echo $p;
-
-function promedio($m,$n,$o){
-    $p = ($m + $n + $o) / 3;
-    echo  $p;
-}
-
-echo "<br><br>"." Valeria:";
-promedio(10,10,10);
-
-echo "<br><br>" ."Naomi:";
-promedio(10,10,10);
-
-echo "<br><br>" ."Jessy:";
-promedio(9,10,10);
-
-for ($i = 1; $i <= 5; $i++) {
-    echo "<br>" . $i;
-}
-
-Function cfeacceso($nombre,$area){
-    echo "<br>Hola ".$nombre;
-    echo "<br>Bienvenid@ a CFE";
-    echo "<br>Tu area es: ".$area;
-}
-
-{
-    cfeacceso("Jessy","Sistemas");
-    echo "<br><br>";
-    cfeacceso("Ashly","Soporte");
-    echo "<br><br>";
-    cfeacceso("Val","Sistemas");
-    echo "<br><br>";
-    cfeacceso("Jova","Sistemas");
-    echo "<br><br>";
-    cfeacceso("Jorch","Profesionista en Sistemas");
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hola mundo</title>
+    <title>Document</title>
+    
 </head>
 <body>
-    <h1>hola amiguitos jejej</h1>
-    <h2></h2>hola soy Ashly jejej</h2>
-    <h3>hola a todos jejej</h3>
-    <h4>hola soy valeria si hola</h4>
-    <h5>pcam2</h5>
-    <h6>CFE ultimo cambio</h6>
-    <h7>hola soy jessy jejej</h7>
 
-    <form method="GET" action="hola.php">
-        <label>nombre</label>
-        <input type="text" name='nombre' value="" />
-        <br>
-        <label>apellido Paterno</label>
-        <input type="text" name='apellido_paterno' value="" />
-        <br>
-        <label>apellido Materno</label>
-        <input type="text" name='apellido_materno' value="" />
-        <br>
-        <input type="button" name='boton1' value="hola" />
-        <input type="submit" name='boton2' value="enviar" />
-        
-    </form>
-<br>
-    <form method="POST" action="hola.php">
-        <label>usuario</label>
-        <input type="text" name='usuario_1' value="" />
-        <br>
-        <label>contraseña</label>
-        <input type="text" name='contra_1' value="" />
-        
-        <br>
-        <input type="button" name='boton1' value="hola" />
-        <input type="submit" name='boton2' value="enviar" />
-        
-    </form>
+<table id="miTabla">
+    <tbody>
+        <tr>
+            <td>Emma Valeria Salinas Tejada</td>
+            <td>21</td>
+            <td>emma@unid.mx</td>
+        </tr>
+        <tr>
+            <td>Ashly Naomi Sanchez Torres</td>
+            <td>21</td>
+            <td>ash@unid.mx</td>
+        </tr>
+        <tr>
+            <td>Jovany Gallardo Julian</td>
+            <td>21</td>
+            <td>jovany@unid.mx</td>
+        </tr>
+        <tr>
+            <td>Jorge Ortiz Garcia</td>
+            <td>??</td>
+            <td>jorge@cfe.mx</td>
+        </tr>
+        <tr>
+            <td>Jose Ivan Catalan Lopez</td>
+            <td>37</td>
+            <td>ivan@cfe.mx</td>
+        </tr>
+    </tbody>
+    <thead>
+        <tr>
+            <td name="micelda">Nombre</td>
+            <td name="micelda">Edad</td>
+            <td>correo</td>
+        </tr>
+    </thead>
+</table>
 
-    <br>
-
-
-<br><br>
-
-
-<!-- FORMULARIO DE DATOS PERSONALES -->
-<!-- Formulario que envía los datos a hola.php mediante POST -->
-<form method="POST" action="hola.php">
-
-    <label>Nombre:</label>
-    <input type="text" name="Nombre1" required>
-
-    <br><br>
-
-    <label>Edad:</label>
-    <input type="number" name="Edad1" required>
-
-    <br><br>
-
-    <label>Pasatiempo favorito:</label>
-    <input type="text" name="Pasatiempo1" required>
-
-    <br><br>
-
-    <label>Color favorito:</label>
-    <input type="text" name="Color1" required>
-
-    <br><br>
-
-    <button type="submit">Enviar</button>
-
-</form>
-    
-</form>
-
+<!--script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script-->
+<!--script src="js/jquery-4.0.0.js"></script-->
+<script src="js/jquery-4.0.0.min.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
