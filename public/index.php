@@ -95,5 +95,41 @@ Function cfeacceso($nombre,$area){
         
     </form>
 
+    <br>
+
+
+<br><br>
+
+
+<!-- FORMULARIO DE DATOS PERSONALES -->
+
+<form method="POST" action="hola.php">
+
+    <label>Nombre:</label>
+    <input type="text" name="Nombre1" required>
+
+    <br><br>
+
+    <label>Edad:</label>
+    <input type="number" name="Edad1" required>
+
+    <br><br>
+
+    <label>Pasatiempo favorito:</label>
+    <input type="text" name="Pasatiempo1" required>
+
+    <br><br>
+
+    <label>Color favorito:</label>
+    <input type="text" name="Color1" required>
+
+    <br><br>
+
+    <button type="submit">Enviar</button>
+
+</form>
+    
+</form>
+
 </body>
 </html>
