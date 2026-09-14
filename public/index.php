@@ -7,7 +7,7 @@ $c = $a + $b;
 echo '>'.$comentario.'<br>';
 echo '>>'.$c.'<br>';
 
-echo "Jovany <br>";
+echo " <br>Jovany";
 $m = 10;
 $n = 5;
 $o = 6; 
@@ -28,6 +28,27 @@ promedio(10,10,10);
 echo "<br>Jessy";
 promedio(9,10,10);
 
+for ($i = 1; $i <= 5; $i++) {
+    echo "<br>" . $i;
+}
+
+Function cfeacceso($nombre,$area){
+    echo "<br>Hola ".$nombre;
+    echo "<br>Bienvenid@ a CFE";
+    echo "<br>Tu area es: ".$area;
+}
+
+{
+    cfeacceso("Jessy","Sistemas");
+    echo "<br><br>";
+    cfeacceso("Ashly","Soporte");
+    echo "<br><br>";
+    cfeacceso("Val","Sistemas");
+    echo "<br><br>";
+    cfeacceso("Jova","Sistemas");
+    echo "<br><br>";
+    cfeacceso("Jorch","Profesionista en Sistemas");
+}
 ?>
 
 <!DOCTYPE html>
