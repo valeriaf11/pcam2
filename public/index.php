@@ -102,7 +102,7 @@ Function cfeacceso($nombre,$area){
 
 
 <!-- FORMULARIO DE DATOS PERSONALES -->
-
+<!-- Formulario que envía los datos a hola.php mediante POST -->
 <form method="POST" action="hola.php">
 
     <label>Nombre:</label>

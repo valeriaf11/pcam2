@@ -1,5 +1,7 @@
 <?php
-
+/*Recibe los datos enviados por el formulario mediante POST.
+ Si el dato no existe, guarda una cadena vacía "".
+ */
 $Nombre = $_POST["Nombre1"] ?? "";
 $Edad = $_POST["Edad1"] ?? "";
 $Pasatiempo = $_POST["Pasatiempo1"] ?? "";
@@ -15,7 +17,7 @@ $Color = $_POST["Color1"] ?? "";
 </head>
 
 <body>
-
+//Mostrar en pantalla los datos recibidos del formulario
 <h2>Formulario de datos</h2>
 
 <h1>*Nombre: <?php echo $Nombre; ?></h1>
