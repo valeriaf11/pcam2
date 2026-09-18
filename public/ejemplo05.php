@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hola mundo</title>
+    <!-- Esta página utilizará el código JavaScript que está en js/ejemplo05.js -->
     <script src="js/ejemplo05.js"></script>
 </head>
 <body>
@@ -28,6 +29,9 @@
         <input type="text" name='contraseña' value="" />
         
         <br>
+<!-- onclick="enviar()" le dice al navegador:
+“Ejecuta la función JavaScript llamada enviar()”.
+Entonces pasamos de:ejemplo05.php → ejemplo05.js -->
         <input type="button" name='enviar' onclick="enviar()" value="enviar datos" />
         
 </div>
