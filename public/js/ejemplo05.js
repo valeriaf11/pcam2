@@ -9,6 +9,9 @@ el estilo .css  */
 /*DOM = el mapa de lo que hay en la página.*/
 /*JavaScript/jQuery = usa ese mapa para encontrar y modificar cosas.*/
 
+// Creamos una función llamada enviar.
+// "async" indica que la función puede realizar operaciones
+// asíncronas y utilizar "await".
 async function enviar() {
   // alert(">>>");
   //definimos un objeto con estos atributos
@@ -17,13 +20,30 @@ async function enviar() {
     edad: 45,
     correo: "jorge@correo.com",
   };
-  //intentamos la ejecucion de este codigo
+  // try significa:"Intenta ejecutar este código".
+  // Si ocurre un error, se irá al catch.
   try {
+  // fetch() realiza una petición al servidor.
+  // En este caso se comunica con el archivo procesar05.php.
+  // await hace que JavaScript espere la respuesta
+  // del servidor antes de continuar.
     const response = await fetch("procesar05.php", {
       method: "POST",
       headers: {
+  // Le indicamos al servidor que los datos
+  // que estamos enviando están en formato JSON.
         "Content-Type": "application/json",
       },
+    // JSON.stringify(datos)
+    // convierte el objeto de JavaScript en texto JSON.
+    //
+    // OBJETO:
+    // { nombre: "Jorge", edad: 45 }
+    //
+    // ↓ JSON.stringify()
+    //
+    // TEXTO JSON:
+    // {"nombre":"Jorge","edad":45}
       body: JSON.stringify(datos),
     });
 

@@ -1,6 +1,7 @@
 <?php 
 
-
+// json_decode(..., true)
+// convierte el texto JSON recibido en un arreglo de PHP.
 //$nombre = $_POST['nombre'];
 $datos = json_decode(file_get_contents("php://input"), true);
 
